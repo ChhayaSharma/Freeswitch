@@ -1,9 +1,0 @@
-<include>
-  <extension name="outbound_calls">
-    <condition field="destination_number" 
-    expression="^9187$">
-      <action application="bridge " 
-      data="sofia/gateway/our_sip_provider/$1"/>
-    </condition>
-  </extension>
-</include>
